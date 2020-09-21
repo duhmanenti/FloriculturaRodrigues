@@ -1,0 +1,28 @@
+<div class="corpo">
+
+  <!--Banner com card da aba-->
+  <img class="bannerCard" src="/assets/abas/cardCatalogo.png">
+
+  <!--Listagem de produtos-->
+  <div class="listagem">
+    <div *ngFor="let prod of produtos">
+      <div class="card">
+        <img src="{{prod.imagem}}" alt="{{prod.nome}}" style="width:100%">
+        <h4 style="padding:5px">{{prod.nome}}</h4>
+        <p class="price">R$ {{prod.preco}}</p>
+        <p><button [routerLink]="['/produto', prod.codigo]">Ver detalhes</button></p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+  <!--Paginação-->
+  <div class="pagination">
+    <a>&laquo;</a>
+    <a *ngFor="let page of pageNumbers" (click)="changePage(page)" [class.active]="page == selectedPage">
+      {{page}}
+    </a>
+    <a>&raquo;</a>
+  </div>
+
+</div>

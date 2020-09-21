@@ -1,0 +1,46 @@
+  /*Organização do banner com a logo centralizada no header*/
+  .banner{
+    display: grid;
+    grid-template-columns: 5;
+    background-color: rgb(255, 104, 104);
+  }
+  .logo{
+    width: 100px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-radius: 6px;
+    padding-top: 4px;
+  }
+
+  /*Configuração da barra de navegação*/
+  .barraNavegacao{
+    display: grid;
+    grid-template-areas: "a b c d";
+    background-color: rgb(255, 104, 104);
+  }
+  .home{
+    grid-area: a;
+  }
+  .catalogo{
+    grid-area: b;
+  }
+  .encontre{
+    grid-area: c;
+  }
+  .sobre{
+    grid-area: d;
+  }
+  /*Configuração dos links*/
+  a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  a:hover{
+    background-color: #8cad95;
+    color: black;
+  }

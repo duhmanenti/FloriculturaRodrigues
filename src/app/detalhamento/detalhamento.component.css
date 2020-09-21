@@ -1,0 +1,54 @@
+  /*Configurações para o corpo da aba*/
+.corpo{
+    background-color: #FFCACA;
+    display: grid;
+    grid-template-areas: "f t"
+                        "f d"
+                        "f p"
+                        "f i";
+  }
+
+  /*Configurações do card de imagem*/
+.imagem {  
+    grid-area: f;
+    width: 50vw;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*Configurações do campo de título do produto*/
+  .titulo{
+    grid-area: t;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+
+/*Configurações do campo de descrição do produto*/
+  .descricao{
+    grid-area: d;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+  }
+
+/*Configurações do campo de preço do produto*/
+  .preco {
+    grid-area: p;
+    color: grey;
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+  }
+
+/*Configurações do campo de informação adicional (fixo para todos os produtos)*/
+  .info{
+    grid-area: i;
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+  }
+

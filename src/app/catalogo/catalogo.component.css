@@ -1,0 +1,72 @@
+/*Configurações do banner do card da aba*/
+.bannerCard{
+  width: 50vw;
+  height: 20vw;
+  padding: 15px;
+  border-radius: 30px;
+  margin-left: 50vh; /*A título de exemplo, outra forma (NÃO RECOMENDADA) de centralizar elementos*/
+}
+
+/*Configurações para o corpo da aba*/
+.corpo{
+  background-color: #FFCACA;
+}
+
+.listagem{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+/*Configurações do card de produto*/
+.card {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    min-width: 300px;
+    text-align: center;
+    font-family: Arial;
+    background-color: #FFCACA;
+    color: rgb(48, 47, 47);
+}
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  .card button {
+    border: solid 10px #FFCACA;
+    outline: 0;
+    padding: 12px;
+    color: rgb(48, 47, 47);
+    background-color: #F6636C;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+
+  /*------PAGINAÇÃO--------*/
+ /*Links de paginação*/
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: .3s;
+}
+/*Ativação da página atual*/
+.pagination a.active {
+  background-color: #F6636C;
+  color: white;
+}
+/*Background cinza ao passar o mouse*/
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}

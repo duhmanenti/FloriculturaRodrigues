@@ -1,0 +1,18 @@
+/*Configuração do card de banner de aba*/
+.bannerCard{
+    width: 50vw;
+    height: 20vw;
+    padding: 15px;
+    border-radius: 30px;
+    margin-left: 50vh;
+}
+
+/*Corpo da aba*/
+.corpo{
+    background-color: #F8A72B;
+}
+
+/*Configuração da API do Google Maps*/
+agm-map {
+    height: 300px;
+   }
