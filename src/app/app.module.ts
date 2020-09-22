@@ -10,7 +10,6 @@ import { CatalogoComponent } from './catalogo/catalogo.component';
 import { DetalhamentoComponent } from './detalhamento/detalhamento.component';
 import { LojaComponent } from './loja/loja.component';
 import { SobreComponent } from './sobre/sobre.component';
-import { AgmCoreModule } from '@agm/core';
 
 
 @NgModule({
@@ -24,10 +23,7 @@ import { AgmCoreModule } from '@agm/core';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyDfJz_THeOk45gpfy7oxESJyS8Be7P54H4' //API do Google Maps
-    })
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

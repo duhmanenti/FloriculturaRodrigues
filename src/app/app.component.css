@@ -30,7 +30,7 @@
   .sobre{
     grid-area: d;
   }
-  /*Configuração dos links*/
+  /*Configuração dos links da barra de navegação*/
   a{
     float: left;
     color: #f2f2f2;

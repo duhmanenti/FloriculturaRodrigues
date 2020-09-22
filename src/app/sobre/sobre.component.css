@@ -1,3 +1,4 @@
+/*Configuração do corpo da aba*/
 .corpo{
     background-color: #2FAAA6;
     display: grid;
@@ -6,7 +7,8 @@
                         "t3 d3"
                         "t4 d4";
 }
-  
+
+/*Configuração do banner da aba*/
 .bannerCard{
     width: 50vw;
     height: 20vw;
@@ -15,6 +17,7 @@
     margin-left: 50vh;
 }
 
+/*Configuração para títulos principais*/
 .titulo{
     color: #094B28;
     font-weight: bold;
@@ -23,43 +26,23 @@
     padding: 10px;
     margin: 8px;
 }
+/*Posicionamento dos títulos*/
+.t1{grid-area: t1}
+.t2{grid-area: t2}
+.t3{grid-area: t3}
+.t4{grid-area: t4}
 
-.t1{
-    grid-area: t1
-}
-
-.t2{
-    grid-area: t2
-}
-
-.t3{
-    grid-area: t3
-}
-
-.t4{
-    grid-area: t4
-}
-
+/*Configuração para texto de corpo*/
 .texto{
     font-size: 15px;
     padding: 10px;
     margin: 8px;
 }
-.d1{
-    grid-area: d1
-}
-
-.d2{
-    grid-area: d2
-}
-
-.d3{
-    grid-area: d3
-}
-
-.d4{
-    grid-area: d4
-}
+/*Posicionamento dos textos do corpo*/
+.d1{grid-area: d1}
+.d2{grid-area: d2}
+.d3{grid-area: d3}
+.d4{grid-area: d4}
 
 
 /*Configurações dos chips de fundadores*/

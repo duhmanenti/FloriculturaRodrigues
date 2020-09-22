@@ -12,6 +12,7 @@
   background-color: #FFCACA;
 }
 
+/*Configuração para listagem dos produtos*/
 .listagem{
   display: flex;
   flex-direction: row;
