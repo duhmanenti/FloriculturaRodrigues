@@ -11,7 +11,8 @@ const routes: Routes = [
   {path: 'produto/:codigo', component: DetalhamentoComponent },
   {path: 'home', component: HomeComponent},
   {path: 'encontreLoja', component: LojaComponent},
-  {path: 'sobre', component: SobreComponent}
+  {path: 'sobre', component: SobreComponent},
+  {path:'', redirectTo: 'home', pathMatch:'full'}
 ];
 
 @NgModule({
